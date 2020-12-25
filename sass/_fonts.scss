@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'RubikReg';
+  src: url('../fonts/Rubik/Rubik-Regular.eot');
+  src: url('../fonts/Rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Rubik/Rubik-Regular.woff') format('woff'),
+  url('../fonts/Rubik/Rubik-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@mixin RubikReg {
+  font-family: RubikReg , sans-serif;
+}
