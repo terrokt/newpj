@@ -44,21 +44,37 @@
               <div class="card-form__item">
                 <h3 class="card-form__title">Вы отдаете</h3>
                 <label class="card-form__label" for="give">Сумма</label>
-                <input type="text" name="give">
+                <input class="card-form__input" placeholder="1000.00" type="text" name="give">
+                <select name="" id="select">
+                  <option clvalue="RUB">RUB</option>
+                  <option value="EUR">EUR</option>
+                </select>
               </div>
               <div class="card-form__item">
                 <h3 class="card-form__title">Вы получете</h3>
+                <span class="card-form__title-addition">c учетом комиссии ПС (0.5%)</span>
                 <label class="card-form__label" for="get">Сумма</label>
-                <input type="text" name="get">
+                <input class="card-form__input" placeholder="1000.00" type="text" name="get">
+                <select name="" id="select">
+                  <option value="RUB">RUB</option>
+                  <option value="EUR">EUR</option>
+                </select>
               </div>
+              <button class="card-form__btn">Обменять</button>
             </form>
+            
+          </div>
+          <div class="shadow-block">
+            <img src="./img/shadoww.png" alt="" class="shadow-block__item shadow__width">
+            <img src="./img/shadowh.png" alt="" class="shadow-block__item shadow__hight">
           </div>
         </div>
+        
       </div>
     </section>
   </header>
   <main class="main"></main>
   <footer class="footer"> </footer>
- 
+  
 </body>
 </html>
