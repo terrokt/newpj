@@ -1,10 +1,24 @@
 .reviews
   background-color: #F7F8FD
+  padding-bottom: 100px
   &-title
     margin: 0
     font-size: 35px
     color: #160647
     margin-bottom: 115px
+  &-content
+    position: relative
+  &-bg
+    position: absolute
+    z-index: 10
+
+    &_1
+      top: 100px
+      left: -140px
+    &_2
+      top: 100px
+      right: 30%
+
   
 .slider
   &-item
@@ -31,3 +45,13 @@
         font-size: 14px
         color: #838BA8
         margin-left: 35px
+  &-button
+    display: flex
+    justify-content: flex-end
+    &_next
+      margin-left: 25px
+  &-btn
+    color: #C4C4C4
+    &:hover
+      color: #A17FFF
+      cursor: pointer
